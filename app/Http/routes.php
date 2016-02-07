@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@home');
+Route::get('about', 'PagesController@about');
 
 /*
 |--------------------------------------------------------------------------
@@ -27,5 +26,5 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::resource('card', 'CardsController');
 });
