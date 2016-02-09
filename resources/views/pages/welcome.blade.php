@@ -6,11 +6,11 @@
 
 @section('content')
     <div ng-controller="FirstController">
-        <input type="text" ng-model="MyFactory.hello">
+        <input type="text" ng-model="FirstFactory.hello">
     </div>
 
     <div ng-controller="SecondController">
-        <input type="text" ng-model="MyFactory.hello">
+        <input type="text" ng-model="FirstFactory.hello">
     </div>
 @stop
 
