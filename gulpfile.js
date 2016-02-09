@@ -27,6 +27,7 @@ elixir(function(mix) {
 
     mix.scripts([
         'libs/jquery-2.2.0/jquery.min.js',
+        'libs/angular-1.5.0/angular.min.js',
         'libs/bootstrap-3.3.6/bootstrap.min.js',
         'libs/select2-4.0.1/select2.min.js',
         'libs/sweetalert/sweetalert.min.js',
