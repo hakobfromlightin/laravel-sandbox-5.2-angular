@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'PagesController@home');
+Route::get('/', function(){
+    return view('angular.5');
+});
 Route::get('about', 'PagesController@about');
 
 /*
